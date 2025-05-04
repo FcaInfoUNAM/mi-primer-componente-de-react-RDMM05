@@ -1,0 +1,15 @@
+Martínez Mendoza Roberto David
+
+PASO 2
+1. ¿De dónde sale la etiqueta Navigation?
+    R = La etiqueta proviene de un componente de React que es 
+    exportado desde el archivo Navigation.jsx. Podemos verlo en
+    la línea import { Navigation } from './Navigation'.
+
+2. ¿Cómo se recibieron esos parametros?
+    R = Se envían desde App.jsx como props cuando se utiliza la etiqueta 
+    <Navigation srcImg={logo} alt="Logo" />
+
+3. ¿Dónde se importan los archivos css, las imagenes y cómo es que se importa un componente?
+    R = En las primeras líneas del archivo, los archivos CSS se importan con import './App.css' e import './grid.css',
+    las imágenes con import logo from './assets/react.svg' y los componentes con import { Navigation } from './Navigation'.
